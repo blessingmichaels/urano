@@ -91,11 +91,11 @@ p {
 
 }
 
-.cursor-m {
+/* .cursor-m {
     display: flex;
     margin-top: 5rem;
     gap: 2rem;
-}
+} */
 
 .cursor-m p {
     font-size: 1.5rem;
@@ -107,18 +107,21 @@ p {
     justify-content: top;
     background-repeat: no-repeat;
     max-height: 800px;
-    width:520px;
+    width: 520px;
 }
+
 .container {
     /* position: relative; */
     margin: 20px;
     width: auto;
 }
+
 .nav-bar {
     overflow: hidden;
     background-color: none;
     padding-left: 2;
 }
+
 .nav-bar a {
     float: left;
     color: white;
