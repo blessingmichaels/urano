@@ -1,0 +1,129 @@
+body {
+    margin: 0em;
+}
+
+.main {
+    background-color: #0B162B;
+    ;
+    padding: 0rem 10rem;
+    margin: 0px 0px;
+}
+
+h1 {
+    font-family: "Montseratt", sans-serif;
+    font-size: 3rem;
+}
+
+p {
+    line-height: 1.5rem;
+    font-family: "PT serif", sans-serif;
+}
+
+.logo-box {
+    /* background-color: rgb(7, 7, 218); */
+    padding-top: 3rem;
+}
+
+.section-one {
+    /* background-color: brown; */
+    color: white;
+    margin-top: 7rem;
+    width: 520px;
+}
+
+.two-sections {
+    display: flex;
+    height: 650px;
+}
+
+/* .image {
+    height: 750px;
+    width: 520px;
+} */
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.email {
+    background-color: #5558DB;
+    width: 20rem;
+    height: 2rem;
+    border: 2px solid rgb(128, 178, 245);
+    /* border-color: rgb(0, 110, 255); */
+    color: black;
+    text-align: center;
+
+}
+
+.get-started {
+    background-color: #5558DB;
+    text-decoration: none;
+    border: 2px solid rgb(55, 132, 233);
+    width: 6rem;
+    padding-top: 5px;
+    padding-left: 1.5rem;
+}
+
+.get-started a {
+    text-decoration: none;
+    color: white;
+    font-family: "PT serif", sans-serif;
+    font-size: 14px;
+}
+
+.p-one {
+    font-family: "PT serif", sans-serif;
+    color: #FFFFFF;
+    height: 21px;
+    width: 20rem;
+    font-weight: 1rem;
+    opacity: 50%;
+}
+
+.cursor {
+    /* background: #0B162B; */
+    width: 1.2rem;
+    height: 2rem;
+    margin-top: 15px;
+    border-radius: rgba(85, 88, 219, 1);
+
+}
+
+.cursor-m {
+    display: flex;
+    margin-top: 5rem;
+    gap: 2rem;
+}
+
+.cursor-m p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.bg-img {
+    background-image: url(imgipsum/Background.jpg);
+    justify-content: top;
+    background-repeat: no-repeat;
+    max-height: 800px;
+    width:520px;
+}
+.container {
+    /* position: relative; */
+    margin: 20px;
+    width: auto;
+}
+.nav-bar {
+    overflow: hidden;
+    background-color: none;
+    padding-left: 2;
+}
+.nav-bar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
