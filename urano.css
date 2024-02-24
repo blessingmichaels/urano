@@ -57,6 +57,10 @@ p {
 
 }
 
+::placeholder {
+    color: black;
+}
+
 .get-started {
     background-color: #5558DB;
     text-decoration: none;
@@ -91,15 +95,15 @@ p {
 
 }
 
-/* .cursor-m {
+.cursor-m {
     display: flex;
     margin-top: 5rem;
     gap: 2rem;
-} */
+}
 
 .cursor-m p {
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .bg-img {
@@ -112,14 +116,14 @@ p {
 
 .container {
     /* position: relative; */
-    margin: 20px;
+    margin: 30px;
     width: auto;
 }
 
 .nav-bar {
     overflow: hidden;
     background-color: none;
-    padding-left: 2;
+    padding-left: 2px;
 }
 
 .nav-bar a {
@@ -129,4 +133,223 @@ p {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+}
+
+.sign-up {
+    background-color: #5558DB;
+    width: 90px;
+    height: 10px;
+    margin-top: 1px;
+}
+
+.dots {
+    margin-top: 34rem;
+    background-color: none;
+}
+
+.section-two {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    padding: 0rem 10rem;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10rem;
+    margin-top: 10rem;
+}
+
+.icon-one {
+    position: relative;
+    left: 12rem;
+}
+
+.lorem {
+    color: rgba(11, 22, 43, 1);
+    position: relative;
+    left: 6.3rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.85rem;
+    font-weight: 700;
+
+
+}
+
+.lorem-two {
+    color: rgba(11, 22, 43, 1);
+    position: relative;
+    left: 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.85rem;
+    font-weight: 700;
+}
+
+.lorem-three {
+    color: rgba(11, 22, 43, 1);
+    position: relative;
+    left: 3rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.85rem;
+    font-weight: 700;
+}
+
+.nunc {
+    color: #0B162B;
+    font-family: "PT serif", sans-serif;
+    text-align: center;
+    font-size: 0.82rem;
+    opacity: 50%;
+}
+
+.icon-two {
+    position: relative;
+    left: 8rem;
+}
+
+.icon-three {
+    position: relative;
+    left: 8rem;
+}
+
+.section-four {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10rem;
+    margin-top: 10rem;
+}
+
+.integer {
+    color: rgba(11, 22, 43, 1);
+    position: relative;
+    right: 0.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    line-height: 38px;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+
+.button-get {
+    background-color: #5558DB;
+    margin-top: 1rem;
+    text-align: center;
+    width: 16rem;
+    padding: 10px 0px;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+
+.button-get a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.section-five {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10rem;
+    margin-top: 10rem;
+}
+
+.bg {
+    background-image: url(imgipsum/world-map.png);
+    background-repeat: round;
+    width: 28rem;
+    height: 28rem;
+}
+
+.flag {
+    position: relative;
+    left: 5rem;
+    top: 5rem;
+    width: 15rem;
+    height: 14rem;
+}
+
+.section-six {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10rem;
+    margin-top: 8rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.nunc-two {
+    color: #0B162B;
+    font-family: "PT serif", sans-serif;
+    font-size: 1rem;
+    opacity: 50%;
+    margin-top: 2rem;
+
+}
+
+.section-seven {
+    margin-top: 2rem;
+    padding: 0rem 10rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    color: rgba(11, 22, 43, 1);
+}
+
+.box-one {
+    background-color: rgb(240, 239, 239);
+    /* background-color: #bbbbee; */
+    width: 22rem;
+    text-align: center;
+    max-height:max-content;
+    padding-top: 1.5rem;
+    line-height: 2rem;
+}
+
+.box-two {
+    background-color: rgb(240, 239, 239);
+    /* background-color: plum; */
+    width: 22rem;
+    text-align: center;
+    max-height:max-content;
+    padding-top: 1.5rem;
+    line-height: 2rem;
+}
+
+.save {
+    background-color: rgba(85, 88, 219, 1);
+    padding: 5px 15px;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+}
+
+.section-seven p {
+    color: rgba(11, 22, 43, 1);
+    opacity: 90%;
+}
+
+.gets {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgba(11, 22, 43, 1);
+    font-family: "Montserrat", sans-serif;
+}
+
+.gets:hover {
+    background-color: #5558DB;
+    color: whitesmoke;
+    padding: 10px 5rem;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.list ul li {
+    text-align: left;
+    opacity: 90%;
+    font-family: "PT serif", sans-serif;
+    /* list-style-image: url(imgipsum/Group\ 2.jpg); */
 }
