@@ -51,7 +51,7 @@ p {
     width: 20rem;
     height: 2rem;
     border: 2px solid rgb(128, 178, 245);
-   border-radius: 2px;
+    border-radius: 2px;
     color: black;
     text-align: center;
 
@@ -153,8 +153,8 @@ p {
     justify-content: space-between;
     margin-top: 5rem;
     padding: 0rem 10rem;
+    /* background-color: #FFFFFF; */
 }
-
 
 .icons {
     display: flex;
@@ -255,6 +255,7 @@ p {
     justify-content: space-between;
     padding: 0px 10rem;
     margin-top: 10rem;
+    background-color: #FFFFFF;
 }
 
 .bg {
@@ -305,7 +306,7 @@ p {
     /* background-color: #bbbbee; */
     width: 22rem;
     text-align: center;
-    max-height:max-content;
+    max-height: max-content;
     padding-top: 1.5rem;
     line-height: 2rem;
 }
@@ -315,7 +316,7 @@ p {
     /* background-color: plum; */
     width: 22rem;
     text-align: center;
-    max-height:max-content;
+    max-height: max-content;
     padding-top: 1.5rem;
     line-height: 2rem;
 }
@@ -356,13 +357,29 @@ p {
     list-style-type: none;
     /* list-style-image: url(imgipsum/Group\ 2.jpg); */
 }
-.ul li::before {
+
+.checkmark {
+    padding-right: 10px;
+    opacity: 70%;
+}
+
+
+
+/* .ul li::before {
     list-style-type: '\f058';
 }
 .ul {
-    list-style-type: ;   
+    --icon-space:1.3rem;
+}
+.li {
+    padding-left: var(--icon-space);
 }
 
+.li::before {
+    content: "\f058"; 
+    font-family: FontAwesome;
+    display: inline-block;
+} */
 .p-last {
     text-align: center;
     color: #0B162B;
@@ -389,15 +406,17 @@ p {
     position: relative;
     top: 15px;
 }
+
 .buttons {
     margin-top: 2.5rem;
 
 }
+
 .minor {
     background-color: #0B162B;
     padding: 6rem 10rem;
-    margin-top: 7rem; 
-    margin-bottom: 5rem;   
+    margin-top: 7rem;
+    /* margin-bottom: 5rem; */
 }
 
 .last-div {
@@ -406,7 +425,8 @@ p {
     display: flex;
     justify-content: space-between;
 }
-.last-div p{
+
+.last-div p {
     font-size: 16px;
 }
 
@@ -440,6 +460,7 @@ p {
     width: 2rem;
     height: 2rem;
 }
+
 .ln {
     position: relative;
     left: 0.5rem;
@@ -450,13 +471,13 @@ p {
     background-color: #FFFFFF;
     border-radius: 100%;
     width: 2rem;
-    height: 2rem;   
+    height: 2rem;
 }
 
 .fb {
-      position: relative;
-      left: 0.5rem;
-      top: 0.5rem;
+    position: relative;
+    left: 0.5rem;
+    top: 0.5rem;
 }
 
 .tweet {
