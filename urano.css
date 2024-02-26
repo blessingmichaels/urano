@@ -161,17 +161,18 @@ p {
     justify-content: space-between;
     padding: 0px 10rem;
     margin-top: 10rem;
+    /* background-color: red; */
 }
 
-.icon-one {
-    position: relative;
-    left: 12rem;
+.lorem-box{
+    /* background-color: aqua; */
+    text-align: center;
+    padding: 1rem .5rem;
 }
 
 .lorem {
     color: rgba(11, 22, 43, 1);
-    position: relative;
-    left: 6.3rem;
+   
     font-family: "Montserrat", sans-serif;
     font-size: 1.85rem;
     font-weight: 700;
@@ -179,23 +180,7 @@ p {
 
 }
 
-.lorem-two {
-    color: rgba(11, 22, 43, 1);
-    position: relative;
-    left: 4rem;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.85rem;
-    font-weight: 700;
-}
 
-.lorem-three {
-    color: rgba(11, 22, 43, 1);
-    position: relative;
-    left: 3rem;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.85rem;
-    font-weight: 700;
-}
 
 .nunc {
     color: #0B162B;
@@ -205,15 +190,8 @@ p {
     opacity: 50%;
 }
 
-.icon-two {
-    position: relative;
-    left: 8rem;
-}
 
-.icon-three {
-    position: relative;
-    left: 8rem;
-}
+
 
 .section-four {
     display: flex;
@@ -459,49 +437,8 @@ p {
     border-radius: 100%;
     width: 2rem;
     height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.ln {
-    position: relative;
-    left: 0.5rem;
-    top: 0.5rem;
-}
-
-.face-book {
-    background-color: #FFFFFF;
-    border-radius: 100%;
-    width: 2rem;
-    height: 2rem;
-}
-
-.fb {
-    position: relative;
-    left: 0.5rem;
-    top: 0.5rem;
-}
-
-.tweet {
-    background-color: #FFFFFF;
-    border-radius: 100%;
-    width: 2rem;
-    height: 2rem;
-}
-
-.tw {
-    position: relative;
-    left: 0.5rem;
-    top: 0.5rem;
-}
-
-.google {
-    background-color: #FFFFFF;
-    border-radius: 100%;
-    width: 2rem;
-    height: 2rem;
-}
-
-.g-plus {
-    position: relative;
-    left: 0.5rem;
-    top: 0.5rem;
-}
