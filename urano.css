@@ -172,12 +172,9 @@ p {
 
 .lorem {
     color: rgba(11, 22, 43, 1);
-   
     font-family: "Montserrat", sans-serif;
     font-size: 1.85rem;
     font-weight: 700;
-
-
 }
 
 
@@ -187,7 +184,6 @@ p {
     font-family: "PT serif", sans-serif;
     text-align: center;
     font-size: 0.82rem;
-    opacity: 50%;
 }
 
 
@@ -231,15 +227,15 @@ p {
 .section-five {
     display: flex;
     justify-content: space-between;
-    padding: 0px 10rem;
-    margin-top: 10rem;
+    padding: 1.5rem 0px 0px 10rem;
+    margin-top: 10rem; 
     background-color: #FFFFFF;
 }
 
 .bg {
     background-image: url(imgipsum/world-map.png);
     background-repeat: round;
-    width: 28rem;
+    width: 30rem;
     height: 28rem;
 }
 
@@ -434,7 +430,7 @@ p {
 
 .linked {
     background-color: #FFFFFF;
-    border-radius: 100%;
+    border-radius: 50%;
     width: 2rem;
     height: 2rem;
     display: flex;
