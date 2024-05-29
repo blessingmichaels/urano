@@ -120,6 +120,7 @@ p {
 .menu-icon {
     display: none;
 }
+
 .fas {
     display: none !important;
 }
@@ -397,6 +398,7 @@ p {
     font-size: 16px;
     color: #FFFFFF;
 }
+
 .div-div {
     display: flex;
     flex-direction: row !important;
@@ -432,6 +434,7 @@ p {
     body {
         overflow-x: hidden !important;
     }
+
     .main {
         padding: 0rem 2rem;
         width: auto;
@@ -476,7 +479,9 @@ p {
         opacity: 100%;
         font-size: 2vw;
     }
-
+html {
+    overflow-x: hidden;
+}
     .get-started {
         width: 27vw;
         height: 3.5vh;
@@ -489,7 +494,6 @@ p {
 
 
     .cursor {
-        /* background: #0B162B; */
         width: 5vw;
         height: 5vh;
         margin-top: 7px;
@@ -510,8 +514,8 @@ p {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-       width: auto;
-      
+        width: auto;
+
     }
 
     .container {
@@ -579,6 +583,7 @@ p {
         align-items: center !important;
         /* background-color: #c20202; */
     }
+
     .section-two img {
         width: 17%;
         height: auto;
@@ -654,7 +659,7 @@ p {
     .section-five {
         display: flex;
         flex-direction: column-reverse;
-        gap: 2rem;
+        gap: 5rem;
         padding: 0 2rem 2rem;
         margin-top: 7rem;
         text-align: center;
@@ -668,15 +673,14 @@ p {
 
     .bg {
         background-image: url(imgipsum/world-map.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
+        width: 100%;
+        height: auto;
     }
 
     .flag {
         position: relative;
-        left: -5rem;
-        top: 5rem;
+        left: -1rem;
+        top: 3rem;
         width: 39vw;
         height: 29vh;
     }
@@ -744,7 +748,7 @@ p {
     .section-seven p {
         color: rgba(11, 22, 43, 1);
         opacity: 90%;
-        
+
     }
 
     .gets {
@@ -793,6 +797,7 @@ p {
     .last-section h1 {
         font-size: 5vw;
     }
+
     .last-section p {
         font-size: 2vw;
     }
@@ -803,6 +808,7 @@ p {
         padding: 10px 1.5rem;
         font-size: 7px;
     }
+
     .email-two {
         margin-top: .5rem;
     }
